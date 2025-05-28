@@ -420,3 +420,118 @@ img {
 .social-media .icon-link:focus {
   background-color: #31d0aa;
 }
+
+/* modal style */
+.modal {
+  margin: 0 auto;
+
+  border-radius: 4px;
+  width: 408px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fcfcfc;
+  padding: 72px 24px 24px;
+  position: relative;
+}
+
+.close-icon {
+  fill: black;
+  overflow: visible;
+  position: absolute;
+}
+
+/* .close-icon-style {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background-color: #e7e9fc;
+  stroke: rgba(0, 0, 0, 0.1);
+  stroke-width: 1px;
+
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.close-icon {
+  width: 100%;
+  height: 100%;
+  fill: #2e2f42;
+} */
+
+.modal-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  margin-bottom: 16px;
+}
+
+.modal-label {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  /* color: rgba(64, 64, 64, 0.3); */
+  margin-bottom: 8px;
+  display: block;
+}
+.modal-input {
+  width: 100%;
+  /* margin-top: 8px; */
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  padding: 11px 24px;
+}
+.modal-textarea {
+  height: 120px;
+  width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  padding: 8px 16px;
+  /* margin-top: 8px; */
+  resize: none;
+  display: block;
+}
+.checkbox-wrapper {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.policy-link {
+  text-decoration: underline;
+  line-height: 1.33;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+
+.text-policy {
+  letter-spacing: 0.04em;
+  font-size: 12px;
+  line-height: 1.17;
+  color: #8e8f99;
+}
+
+.modal-btn {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #4d5ae5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  color: #fff;
+  margin: 0 auto;
+}
