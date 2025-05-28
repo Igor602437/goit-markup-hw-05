@@ -567,10 +567,12 @@ img {
 
 .close-modal-btn:hover {
   border: none;
+  background-color: var(--ocean);
 }
 
 .close-modal-btn:focus {
-  background-color: #404bbf;
+  border: none;
+  background-color: var(--ocean);
 }
 
 .close-modal-btn:hover .close-modal-btn-icon,
@@ -588,7 +590,7 @@ img {
 .review-form {
 }
 .review-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .review-form-field-label {
