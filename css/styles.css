@@ -590,7 +590,7 @@ img {
 .review-form {
 }
 .review-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .review-form-field-label {
@@ -635,6 +635,7 @@ img {
   fill: var(--iris);
 }
 .review-form-message {
+  display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
